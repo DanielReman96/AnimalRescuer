@@ -1,6 +1,14 @@
 public class Veterinarian {
 
-    String name = "Victor";
-    String specialization = "pets";
+    String veterinarianName = "Victor";
+    String veterinarianSpecialization = "pets";
+
+    public void vetBusy (){
+        System.out.println(" The veterinarian is very busy");
+    }
+
+    public void vetProfessional(){
+        System.out.println(" The veterinarian is professional");
+    }
 
 }

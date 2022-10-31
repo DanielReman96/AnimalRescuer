@@ -1,12 +1,21 @@
 public class Animal {
 
-    String name = "Dog";
-    int age = 3;
-    int healthLevel = 10;
-    int feelingHungry = 8;
+    String animalName = "Dog";
+    int animalAge = 3;
+    int animalHealthLevel = 10;
+    int animalFeelingHungry = 8;
     int stateOfMind = 9;
-    String favoriteFood = "chicken";
-    String favoriteActivity = "running";
+    String animalFavoriteFood = "chicken";
+    String animalFavoriteActivity = "running";
+
+    public void animalDog (){
+        System.out.println(" The dog is happy today");
+
+    }
+
+    public void animalIsVeryHungry(){
+        System.out.println(" The dog is very hungry ");
+    }
 
 
 
