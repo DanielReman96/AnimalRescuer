@@ -3,19 +3,24 @@ public class Main {
     public static void main(String[] args) {
 
         Owner owner = new Owner();
-        System.out.println(owner.ownerName);
+        owner.setOwnerName("Mircea");
+        System.out.println(owner.getOwnerName());
 
         Animal animal = new Animal();
-        System.out.println(animal.animalFavoriteActivity);
+        animal.setAnimalFavoriteActivity("Running");
+        System.out.println(animal.getAnimalFavoriteActivity());
 
         RecreationalActivity recreationalActivity = new RecreationalActivity();
-        System.out.println(recreationalActivity.recreationalActivityName);
+        recreationalActivity.setRecreationalActivityName("Sleeping");
+        System.out.println(recreationalActivity.getRecreationalActivityName());
 
         Veterinarian veterinarian = new Veterinarian();
-        System.out.println(veterinarian.veterinarianSpecialization);
+        veterinarian.setVeterinarianName("Victor");
+        System.out.println(veterinarian.getVeterinarianName());
 
         Food food = new Food();
-        System.out.println(food.foodName);
+        food.setFoodName("Chicken");
+        System.out.println(food.getFoodName());
 
 
         food.foodChicken();

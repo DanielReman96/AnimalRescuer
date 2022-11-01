@@ -1,11 +1,45 @@
 public class Food {
 
-  String foodName = " chicken ";
-  int foodPrice = 5;
-  int foodQuantity = 6;
-  boolean foodAvailability = true;
+  private String foodName;
+  private int foodPrice;
+  private int foodQuantity;
+  private boolean foodAvailability;
 
-    public void foodChicken (){
+  public void setFoodName(String foodName){
+    this.foodName = foodName;
+  }
+  public String getFoodName(){
+    return foodName;
+  }
+
+  public void setFoodPrice (int foodPrice){
+    this.foodPrice = foodPrice;
+  }
+
+  public int getFoodPrice (){
+    return foodPrice;
+  }
+
+
+  public void setFoodQuantity(int foodQuantity){
+    this.foodQuantity = foodQuantity;
+  }
+
+  public int getFoodQuantity(){
+    return foodQuantity;
+  }
+
+
+
+  public void setFoodAvailability(boolean foodAvailability) {
+    this.foodAvailability = foodAvailability;
+  }
+
+  public boolean isFoodAvailability() {
+    return foodAvailability;
+  }
+
+  public void foodChicken (){
         System.out.println(" Today Rudolph eat chicken" );
     }
 
