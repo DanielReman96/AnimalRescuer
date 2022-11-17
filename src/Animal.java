@@ -2,6 +2,11 @@ public class Animal {
 
     private String animalName;
     private int animalAge;
+
+
+
+    private String animalRace;
+    private String animalGender;
     private int animalHealthLevel;
     private int animalFeelingHungry;
     private int stateOfMind;
@@ -47,6 +52,13 @@ public class Animal {
     public void setStateOfMind(int stateOfMind) {
         this.stateOfMind = stateOfMind;
     }
+    public String getAnimalRace() {
+        return animalRace;
+    }
+
+    public void setAnimalRace(String animalRace) {
+        this.animalRace = animalRace;
+    }
 
     public String getAnimalFavoriteFood() {
         return animalFavoriteFood;
@@ -64,7 +76,15 @@ public class Animal {
         this.animalFavoriteActivity = animalFavoriteActivity;
     }
 
-    public void animalDog (){
+    public String getAnimalGender() {
+        return animalGender;
+    }
+
+    public void setAnimalGender(String animalGender) {
+        this.animalGender = animalGender;
+    }
+
+    public void animalIsHappy (){
         System.out.println(" The dog is happy today");
 
     }
