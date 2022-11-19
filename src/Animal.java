@@ -93,6 +93,22 @@ public class Animal {
         System.out.println(" The dog is very hungry ");
     }
 
+    public void speak (){
+        System.out.println(" Speak speak speak");
+
+    }
+
+    public void eat(){
+        System.out.println(" Yum yum yum ");
+    }
+
+    public void sleep(){
+        System.out.println(" Snorr, snorr, snorr ");
+    }
+
+    public void run(){
+        System.out.println(" Run run run ");
+    }
 
 
 }

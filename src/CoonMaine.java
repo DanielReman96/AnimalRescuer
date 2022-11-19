@@ -24,5 +24,18 @@ public class CoonMaine extends Cat{
         this.furColor = furColor;
     }
 
+    @Override
+    public void run() {
+        System.out.println(" RunCoonMaine RUNCoonMaine RunCoonMaine ");
+    }
 
+    @Override
+    public void speak() {
+        System.out.println(" I am CoonMaine");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println(" Eat CoonMaine Eat ");
+    }
 }

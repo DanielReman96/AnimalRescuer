@@ -33,5 +33,18 @@ public class Cat extends Animal{
         this.hearingLevel = hearingLevel;
     }
 
+    @Override
+    public void run() {
+        System.out.println(" RunCat RunCat RunCat ");
+    }
 
+    @Override
+    public void eat() {
+        System.out.println(" YUUUUUUMMMMMM  YUUUUUUMMMMMM   YUUUUUUMMMMMM ");
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println(" CatSleep CatSleep CatSleep");
+    }
 }

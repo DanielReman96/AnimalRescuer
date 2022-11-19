@@ -29,27 +29,42 @@ public class Main {
 //        recreationalActivity.sleep();
 //        veterinarian.vetBusy();
 
-//        Dog dog = new Dog();
+        Dog dog = new Dog();
 //        dog.setAnimalRace("Labrador");
 //        System.out.println(dog.getAnimalRace());
 
         CaneCorso dixy = new CaneCorso();
-        dixy.setAnimalName("Dixy");
-
+//        dixy.setAnimalName("Dixy");
+//
         CaneCorso rex = new CaneCorso();
-        rex.setAnimalName("Rex");
-
+//        rex.setAnimalName("Rex");
+//
         CatFood catFood = new CatFood();
-        catFood.setFoodName("FelixFood");
-        System.out.println(catFood.getFoodName());
-
+//        catFood.setFoodName("FelixFood");
+//        System.out.println(catFood.getFoodName());
+//
         Whiskas whiskas = new Whiskas();
-        whiskas.setQuantity(2);
-        System.out.println(whiskas.getQuantity());
-
+//        whiskas.setQuantity(2);
+//        System.out.println(whiskas.getQuantity());
+//
         CoonMaine coonMaine = new CoonMaine();
-        coonMaine.climbs();
-        coonMaine.setDimension(100);
+//        coonMaine.climbs();
+//        coonMaine.setDimension(100);
+
+        Cat cat = new Cat();
+
+        dog.run();
+        cat.run();
+        coonMaine.run();
+        coonMaine.speak();
+
+        Dog tomy = new CaneCorso();
+        tomy.run();
+        rex.barks();
+
+        VeterinarianCats victor = new VeterinarianCats();
+        victor.vetBusy();
+
 
 
 
