@@ -19,6 +19,11 @@ public class CaneCorso extends Dog{
     }
 
     @Override
+    public void speak() {
+
+    }
+
+    @Override
     public void sleep() {
         System.out.println(" SLEEP CANECORSO SLEEP");
     }

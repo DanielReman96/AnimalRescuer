@@ -12,4 +12,14 @@ public class VeterinarianCats extends Veterinarian
         System.out.println(" The Veterinarian cats is professional vet. ");
     }
 
+    @Override
+    public void speak() {
+
+    }
+
+    @Override
+    public void sleep() {
+
+    }
+
 }

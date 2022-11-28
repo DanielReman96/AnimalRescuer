@@ -1,4 +1,4 @@
-public class Cat extends Animal{
+public abstract class Cat extends Animal{
 
 
     private int viewLevel;
@@ -34,17 +34,15 @@ public class Cat extends Animal{
     }
 
     @Override
-    public void run() {
-        System.out.println(" RunCat RunCat RunCat ");
-    }
+    public abstract void run();
 
     @Override
-    public void eat() {
-        System.out.println(" YUUUUUUMMMMMM  YUUUUUUMMMMMM   YUUUUUUMMMMMM ");
-    }
+    public abstract void speak();
+
+
 
     @Override
-    public void sleep() {
-        System.out.println(" CatSleep CatSleep CatSleep");
-    }
+    public abstract void  sleep();
+
+    public abstract void purr();
 }

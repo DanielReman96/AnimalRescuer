@@ -1,4 +1,4 @@
-public class Veterinarian {
+public abstract class Veterinarian {
 
     private String veterinarianName;
     private String veterinarianSpecialization;
@@ -23,9 +23,11 @@ public class Veterinarian {
         System.out.println(" The veterinarian is very busy");
     }
 
-    public void vetProfessional(){
-        System.out.println(" The veterinarian is professional");
-    }
+    public abstract void vetProfessional();
+
+    public abstract void speak();
+
+    public abstract void sleep();
 
 
 

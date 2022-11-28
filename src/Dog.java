@@ -1,4 +1,4 @@
-public class Dog extends Animal
+public abstract class Dog extends Animal
 {
 
 
@@ -10,22 +10,16 @@ public class Dog extends Animal
         System.out.println("The dog bites");
     }
 
-    public void barks(){
-        System.out.println("The dog barks");
-    }
+    public abstract void barks();
 
     @Override
-    public void eat() {
-        System.out.println(" Miammi miammi miammi ...");
-    }
+    public abstract void eat();
 
     @Override
-    public void speak() {
-        System.out.println(" Hau hau hau ");
-    }
+    public abstract void speak();
 
     @Override
-    public void run() {
-        System.out.println(" RRR RRR RRR ");
-    }
+    public abstract  void run();
+
+
 }

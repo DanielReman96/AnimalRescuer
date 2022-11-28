@@ -35,7 +35,19 @@ public class CoonMaine extends Cat{
     }
 
     @Override
-    public void eat() {
-        System.out.println(" Eat CoonMaine Eat ");
+    public void sleep() {
+
     }
+
+    @Override
+    public void purr() {
+
+    }
+
+    @Override
+    public void eat() {
+
+    }
+
+
 }

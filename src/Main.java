@@ -29,7 +29,8 @@ public class Main {
 //        recreationalActivity.sleep();
 //        veterinarian.vetBusy();
 
-        Dog dog = new Dog();
+
+
 //        dog.setAnimalRace("Labrador");
 //        System.out.println(dog.getAnimalRace());
 
@@ -51,14 +52,14 @@ public class Main {
 //        coonMaine.climbs();
 //        coonMaine.setDimension(100);
 
-        Cat cat = new Cat();
 
-        dog.run();
-        cat.run();
+
+
         coonMaine.run();
         coonMaine.speak();
 
         Dog tomy = new CaneCorso();
+
         tomy.run();
         rex.barks();
 

@@ -1,10 +1,7 @@
-public class Animal {
+public abstract class Animal {
 
     private String animalName;
     private int animalAge;
-
-
-
     private String animalRace;
     private String animalGender;
     private int animalHealthLevel;
@@ -84,31 +81,22 @@ public class Animal {
         this.animalGender = animalGender;
     }
 
-    public void animalIsHappy (){
-        System.out.println(" The dog is happy today");
+//    public void animalIsHappy (){
+//        System.out.println(" The dog is happy today");
+//
+//    }
+//
+//    public void animalIsVeryHungry(){
+//        System.out.println(" The dog is very hungry ");
+//    }
 
-    }
+    public abstract void speak ();
 
-    public void animalIsVeryHungry(){
-        System.out.println(" The dog is very hungry ");
-    }
+    public abstract void eat();
 
-    public void speak (){
-        System.out.println(" Speak speak speak");
+    public abstract void sleep();
 
-    }
-
-    public void eat(){
-        System.out.println(" Yum yum yum ");
-    }
-
-    public void sleep(){
-        System.out.println(" Snorr, snorr, snorr ");
-    }
-
-    public void run(){
-        System.out.println(" Run run run ");
-    }
+    public abstract void run();
 
 
 }
